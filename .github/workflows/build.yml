@@ -1,6 +1,11 @@
 name: Build ZMK firmware
 on:
   workflow_dispatch:
+    inputs:
+      archive_name:
+        description: "Name of the archive to create"
+        required: true
+        default: "eyelash-sofle-zmk-firmware"
   push:
     paths-ignore:
       - "keymap-drawer/**"
@@ -8,4 +13,5 @@ on:
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
-
+    with:
+      archive_name: "eyelash-sofle-${{ github.run_number }}-${{ github.sha }}"
