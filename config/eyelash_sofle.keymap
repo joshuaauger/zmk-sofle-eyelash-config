@@ -107,9 +107,9 @@ ZMK_HOLD_TAP(mt_end, bindings = <&masked_end>, <&kp>; MT_CORE)
 /*                              Combos                              */
 /* ──────────────────────────────────────────────────────────────── */
 
-ZMK_COMBO(selectall, &kp LGUI(A), LB4 LB3, BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
-ZMK_COMBO(copy,      &kp LGUI(C), LB3 LB2, BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
-ZMK_COMBO(paste,     &kp LGUI(V), LB2 LB1, BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(selectall, &kp LG(A), LB4 LB3, BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(copy,      &kp LG(C), LB3 LB2, BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
+ZMK_COMBO(paste,     &kp LG(V), LB2 LB1, BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
 ZMK_COMBO(lbkt, &kp LBKT, RB1 RB2, BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(rbkt, &kp RBKT, RB2 RB3, BASE, COMBO_TERM_FAST, COMBO_IDLE_FAST)
