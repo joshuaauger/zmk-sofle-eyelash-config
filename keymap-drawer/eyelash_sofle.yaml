@@ -262,13 +262,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [40, 41]
-  k: LGUI(A)
+  k: {t: A, h: '$$mdi:apple-keyboard-command$$'}
   l: [BASE]
 - p: [41, 42]
-  k: LGUI(C)
+  k: {t: C, h: '$$mdi:apple-keyboard-command$$'}
   l: [BASE]
 - p: [42, 43]
-  k: LGUI(V)
+  k: {t: V, h: '$$mdi:apple-keyboard-command$$'}
   l: [BASE]
 - p: [47, 48]
   k: {h: '[', s: '{'}
