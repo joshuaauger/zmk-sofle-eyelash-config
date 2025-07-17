@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - '&mcaps'
+  - $$mdi:keyboard-esc$$
   - A
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: LGUI}
@@ -56,13 +56,13 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - LGUI
-  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-option$$
   - NAV
-  - $$mdi:keyboard-esc$$
-  - $$mdi:mouse-scroll-wheel$$
-  - Ctl+Alt+Gui+$$mdi:apple-keyboard-shift$$
-  - FN
+  - $$mdi:keyboard-space$$
+  - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
+  - FN
+  - Ctl+Alt+Gui+$$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - {t: '-', s: _}
   NAV:
@@ -124,7 +124,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - Ctl+Alt+$$mdi:backspace-reverse-outline$$
-  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
