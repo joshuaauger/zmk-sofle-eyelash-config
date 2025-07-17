@@ -262,13 +262,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [40, 41]
-  k: Ctl+A
+  k: LGUI(A)
   l: [BASE]
 - p: [41, 42]
-  k: Ctl+C
+  k: LGUI(C)
   l: [BASE]
 - p: [42, 43]
-  k: Ctl+V
+  k: LGUI(V)
   l: [BASE]
 - p: [47, 48]
   k: {h: '[', s: '{'}
